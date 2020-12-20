@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.weather{
+    text-align: center;
+    margin-top: 40px;
+}
+body{
+    font-family: "Nunito",sans-serif;
+    background-image: linear-gradient(270deg,rgb(167, 167, 13),rgb(39, 226, 186));
+}
+.input{
+    text-align: center;
+    margin-top: 20px;
+}
+.inputvalue{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.submit{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit :hover{
+    background-color: rgb(6, 241, 151);
+    color: rgba(0, 68, 255, 0.596);
+}
+.display{
+    text-align: center;
+    margin-top: 30px;
+}
+.desc{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.temp{
+    margin-top: 20px;
+}
